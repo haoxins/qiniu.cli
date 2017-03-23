@@ -1,4 +1,12 @@
 
+### qiniu.cli
+
+* Install
+
+```bash
+$ [sudo] npm i qiniu.cli -g
+```
+
 * `usage`
 
 ```js
