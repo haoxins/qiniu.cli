@@ -1,0 +1,33 @@
+{
+  "name": "qiniu.cli",
+  "version": "0.0.0",
+  "description": "qiniu CLI",
+  "main": "index.js",
+  "bin": {
+    "qiniu": "index.js"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": "haoxins/qiniu.cli",
+  "keywords": [
+    "qiniu",
+    "cli"
+  ],
+  "author": "haoxin",
+  "license": "MIT",
+  "dependencies": {
+    "commander": "2",
+    "fs-readdir-recursive": "1",
+    "qiniu": "6"
+  },
+  "devDependencies": {
+    "eslint-config-ok": "github:haoxins/eslint-config",
+    "mocha": "^3.2.0"
+  },
+  "eslintConfig": {
+    "extends": [
+      "ok"
+    ]
+  }
+}
